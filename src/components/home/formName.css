@@ -1,0 +1,20 @@
+.home__form-input{
+    border: none;
+    padding: .6rem;
+
+}
+
+
+.home__form-button{
+    border: none;
+    padding: .6rem;
+    background-color: var(--principalRed);
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.home__form-button:hover{
+    background-color: var(--principalRedHover);
+}
+

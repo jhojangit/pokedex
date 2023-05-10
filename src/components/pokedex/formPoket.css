@@ -1,0 +1,38 @@
+.form__poket-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.form__poket-input{
+    border: none;
+    padding: .6rem;
+
+}
+
+.form__poket-button{
+    border: none;
+    padding: .6rem;
+    background-color: var(--principalRed);
+    color: aliceblue;
+    cursor: pointer;
+    transition: background-color .4s;
+}
+
+.form__poket-button:hover{
+    background-color: var(--principalRedHover);
+}
+
+
+.form__poket-select{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: large;
+    border: none;
+    padding: .6rem;
+    cursor: pointer;
+    transition: background-color .4s;
+}
