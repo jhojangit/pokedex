@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    cursor: pointer;
     margin: 1rem;
     border-radius: 1rem;
     border: 10px solid rgba(255, 255, 255, 0.062);
@@ -40,7 +40,7 @@ img {
 }
 
 .poket__name{
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     text-transform: capitalize;
 }
 
@@ -241,4 +241,12 @@ img {
 
 .dark__name {
     color: darkmagenta;
+}
+
+.flying {
+    background: linear-gradient(179.75deg, #962424 -19.96%, #332328 43.67%, #71567a 138.4%);
+}
+
+.flying__name {
+    color: rgb(76, 78, 80);
 }
